@@ -28,7 +28,7 @@ section{
 }
 
 .div-1 hr{
-    border: 0.3rem solid aqua; 
+    border: 0.3rem solid hsl(205, 78%, 60%);; 
     width: 80px;
 }
 
@@ -45,7 +45,45 @@ section{
     box-shadow: 1px 2px 5px 5px rgba( 0, 0, 0, 0.09);
 }
 
+.div-3{
+    margin-top: 25px;
+    position: relative;
+    background-color: hsl(205, 78%, 60%);;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.div-3 span{
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    background-color: hsl(205, 78%, 60%);;
+    width: 5.5rem;
+    height: 5.5rem;
+    z-index: 20;
+    border-radius: 5rem;
+}
+
+.div-3 i{
+    position: absolute;
+    top: 23px;
+    left: 18px;
+    font-size: 2.5rem;
+    color: white; 
+}
+
+.div-3 img{
+    position: absolute;
+    top: 8px;
+    right: 17px;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
 .div-4{
+    margin-top: 2.5rem;
     text-align: center;
     padding-bottom: 1.2rem;
 }
@@ -53,12 +91,13 @@ section{
 .div-4 h4{
     letter-spacing: 0.25rem;
     padding-bottom: 1rem;
+    font-size: 1.4rem;
 }
 
 .div-4 h6{
     font-size: 1.10rem;
-    color: rgb(32, 192, 192);
-    text-transform: capitalize;
+    color: hsl(205, 78%, 60%);
+    text-transform: uppercase;
 }
 
 .div-5 p{
@@ -75,13 +114,24 @@ section{
     gap: 2.5rem;
     font-size: 2.5rem;
     font-weight: bold;
-    color: aqua;
+    color: hsl(205, 90%, 76%);
+}
+
+.span-1:hover{
+    color: hsl(205, 78%, 60%);
 }
 .div-5 button{
     width: 100%;
     padding: 10px 0px;
-    background-color: aqua;
+    background-color: hsl(205, 100%, 96%);
     font-size: 16px;
     border: none;
     border-radius: 14px;
+    color: hsl(205, 78%, 60%) ;
+    
+}
+
+.div-5 button:hover {
+    background-color: hsl(205, 78%, 60%);
+    color: hsl(205, 100%, 96%);
 }
